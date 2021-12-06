@@ -20,4 +20,6 @@
 
 **fast3layerfiberfield2.m** Plots the fiber field of the arterial cross section using inverseprimeratappr.m, med_inverseprimeratappr.m, ad_inverseprimeratappr.m
 
-**NOTE:** The codes must be executed in order as given in the above list
+**NOTE 1:** The inverse conformal map g in the paper is represented as finv in the MATLAB codes
+
+**NOTE 2:** The codes must be executed in order as given in the above list
