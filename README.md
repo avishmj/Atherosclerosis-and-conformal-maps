@@ -23,3 +23,5 @@
 **NOTE 1:** The inverse conformal map g in the paper is represented as finv in the MATLAB codes
 
 **NOTE 2:** The codes must be executed in order as given in the above list
+
+**conformal2div.m** Example of a geometry for which conformal2 diverges
