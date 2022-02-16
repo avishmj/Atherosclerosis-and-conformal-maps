@@ -1,7 +1,7 @@
 tic
 
 t=0:0.01:2*pi;
-phi_int = 60.3; % Fiber inclination angle for the intima
+phi_int = 60.3*pi/180; % Fiber inclination angle for the intima
 
 r = linspace(rho+0.02,1-0.02,11); % Discretizing the width of the reference annulus for the intima
 
@@ -34,7 +34,7 @@ hold on
 %**************************************************************************
 
 
-phi_med = 20.61; % Fiber inclination angle for the media
+phi_med = 20.61*pi/180; % Fiber inclination angle for the media
 
 r_med = linspace(rho_med+0.02,1-0.02,15); % Discretizing the width of the reference annulus for the media
 
@@ -65,7 +65,7 @@ hold on
 
 %**************************************************************************
 
-phi_ad = 67; % Fiber inclination angle for the adventitia
+phi_ad = 67*pi/180; % Fiber inclination angle for the adventitia
 
 r_ad = linspace(rho_ad+0.02,1-0.02,15); % Discretizing the width of the reference annulus for the adventitia
 
